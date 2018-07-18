@@ -1,4 +1,5 @@
-#!/bin/sh -e
+#!/bin/sh
+set -eu
 eval "`curl -fsSL import.pw`"
 import "import.pw/assert@2.1.1"
 source ./array.sh
