@@ -5,7 +5,7 @@ Array helper functions for shell scripting.
 
 ## API
 
-### `array_join $separator $one [...$two]`
+### `array_join $separator $one [… $two]`
 
 Joins an array or set of passed arguments with `$separator`.
 Similar to JavaScript's `Array#join()`.
