@@ -33,9 +33,3 @@ printf "foo,bar,baz" | while array_split , part; do
   echo "$part"
 done
 ```
-
-
-## Credits
-
-The HTTP server implementation is originated from
-[`avleen/bashttpd`](https://github.com/avleen/bashttpd).
