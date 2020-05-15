@@ -11,8 +11,7 @@ Joins an array or set of passed arguments with `$separator`.
 Similar to JavaScript's `Array#join()`.
 
 ```bash
-#!/bin/bash
-. "$(which import)"
+#!/usr/bin/env import
 import array
 
 arr=(1 2 3)
@@ -25,8 +24,7 @@ Splits a string based on an array or set of passed arguments with `$separator`.
 Similar to JavaScript's `Array#join()`.
 
 ```bash
-#!/bin/bash
-. "$(which import)"
+#!/usr/bin/env import
 import array
 
 printf "foo,bar,baz" | while array_split , part; do
