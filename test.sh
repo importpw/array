@@ -1,8 +1,8 @@
 #!/bin/sh
 set -eu
-eval "`curl -fsSL import.pw`"
-import "import.pw/assert@2.1.1"
-source ./array.sh
+eval "$(curl -fsSL import.pw)"
+import "assert@2.1.3"
+source "./array.sh"
 
 
 # array_join
