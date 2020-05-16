@@ -21,7 +21,7 @@ array_join , "${arr[@]}"
 ### `array_split $separator $str`
 
 Splits a string based on an array or set of passed arguments with `$separator`.
-Similar to JavaScript's `Array#join()`.
+Similar to JavaScript's `Array#split()`.
 
 ```bash
 #!/usr/bin/env import
